@@ -14,6 +14,17 @@ def index():
     """
     return "Hello, World!"
 
+@app.route("/new")
+def new():
+    """This function returns a greeting message.
+
+    Returns:
+        str: The greeting message.
+    """
+    return "Hello, World!"
+
+@app
+
 
 
 app.run(debug=True, host="0.0.0.0")
